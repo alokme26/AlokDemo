@@ -17,7 +17,7 @@ public class TestDocument {
 			String CustomerDes = f.getExcelValue("CreateCustomer", 1, 1);
 			HomePage h=new HomePage(driver);
 			h.getTaskMenu().click();
-			//TaskListPage t=new TaskListPage(driver);      
+			TaskListPage t=new TaskListPage(driver);      
 			t.getAddNewBtn().click();
 			t.getNewCustomerMenu().click();
 		}
